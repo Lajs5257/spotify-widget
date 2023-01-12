@@ -166,7 +166,7 @@ def catch_all(path):
     resp = Response(svg, mimetype="image/svg+xml")
     resp.headers["Cache-Control"] = "s-maxage=1"
 
-    return "hola2
+    return "hola2"
 
 
 if __name__ == "__main__":
